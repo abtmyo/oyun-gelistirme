@@ -20,6 +20,8 @@ https://www.youtube.com/watch?v=argpSxB1NQE (The Entire History of Video Games)
 
 The Art of Game Design: A Book of Lenses (https://www.amazon.com/Art-Game-Design-Lenses-Third/dp/1138632058)
 
+The Art of Game Design: Deck of Lenses Ucretsiz (https://deck.artofgamedesign.com/#/menu/0/?lang=en)
+
 
 
 
