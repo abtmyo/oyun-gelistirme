@@ -2,7 +2,9 @@
 
 ## Odev 0
 
-https://classroom.github.com/a/i2qkthZN
+Kendinizi README.md dosyasinda (Isim, ogrenci no, programlama gecmisi vb.) anlatiniz.
+
+https://classroom.github.com/a/lTDcrdGL
 
 ## Videolar
 
