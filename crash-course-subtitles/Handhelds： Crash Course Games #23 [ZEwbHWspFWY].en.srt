@@ -1,0 +1,470 @@
+1
+00:00:00,000 --> 00:00:02,540
+Hi! I’m Andre Meadows and this is Crash Course Games.
+
+2
+00:00:02,540 --> 00:00:07,820
+Today, we are going to look at how handhelds came to be, what made them popular, and why their future may not look so bright.
+
+3
+00:00:07,820 --> 00:00:17,200
+A handheld game console takes the home console – the screen, speakers, controls, and the actual computer – and wraps it up in a neat package that can be carried and played anywhere.
+
+4
+00:00:17,200 --> 00:00:23,300
+But the handheld consoles we all know and love today didn’t start out as high-tech machines with multiple screens and wifi capabilities.
+
+5
+00:00:23,300 --> 00:00:25,300
+Nope, they started with blinking lights.
+
+6
+00:00:25,300 --> 00:00:34,400
+[Theme Music]
+
+7
+00:00:34,400 --> 00:00:44,420
+The first handheld electronic games were played on single game devices that utilized either bulbs, LED lights, or alphanumeric displays as well as sound effects, and basic buttons for gameplay.
+
+8
+00:00:44,420 --> 00:00:49,640
+The first of these, and the first electronic handheld, was Mattel’s Auto Race released in 1976.
+
+9
+00:00:49,640 --> 00:00:51,220
+Let’s go to the Thought Bubble.
+
+10
+00:00:51,220 --> 00:00:58,699
+The design for the first handheld game came from a proposal made by George Klose, product development engineer, and Richard Cheng of Mattel Electronics
+
+11
+00:00:58,700 --> 00:01:05,660
+to re-purpose a standard calculator’s hardware to create a hand-held electronic game with the player being represented with little lights.
+
+12
+00:01:05,660 --> 00:01:10,620
+Mattel had submitted their proposal for this gaming device to Rockwell International in Anaheim, CA.
+
+13
+00:01:10,620 --> 00:01:18,380
+But it had been sitting in a pile on a desk, with little support for the idea until Rockwell employee Mark Lesser, a circuit design engineer, came along.
+
+14
+00:01:18,380 --> 00:01:28,740
+Lesser had some free time to start a new project but no programming experience, and only a one-page proposal to work off of, but decided to take on the project anyway, jumping on the opportunity to create a game.
+
+15
+00:01:28,740 --> 00:01:32,080
+Lesser didn’t even have the support of his
+employer, as he pointed out,
+
+16
+00:01:32,080 --> 00:01:36,720
+“Remember, there was no such thing as a handheld game at the time – nobody knew if it was going to work.”
+
+17
+00:01:36,720 --> 00:01:45,720
+And it took a lot of trial and error, but Lesser was able to redesign the calculator chip, write the code, and work within the memory constraints – 511 bytes.
+
+18
+00:01:45,720 --> 00:01:49,400
+So not a whole lot of space to turn a calculator
+into a complete interactive gaming device.
+
+19
+00:01:49,400 --> 00:01:56,480
+It took Lesser over a year to get the code efficient enough to work, but it was worth the effort when Auto Race managed to exceed Mattel’s expectations.
+
+20
+00:01:56,480 --> 00:02:07,720
+The success of Auto Race convinced Mattel to continue development on what would become the incredibly popular Mattel Football in 1977, producing as many as 500,000 units per week by 1978.
+
+21
+00:02:07,720 --> 00:02:14,120
+And this lead to the creation of the Mattel Electronics Division in 1978, and helped to solidify this new genre of gaming in the process.
+
+22
+00:02:14,120 --> 00:02:15,280
+Thanks Thought Bubble.
+
+23
+00:02:15,280 --> 00:02:21,100
+Another toy manufacturer Parker Brothers got into the handheld market in 1978 with their release of Merlin.
+
+24
+00:02:21,100 --> 00:02:27,480
+Merlin’s design and mechanics were similar to Mattel’s, but with the exception that this device could play six games instead of just one.
+
+25
+00:02:27,480 --> 00:02:35,260
+And this game proved successful winning the title of best selling Toy and Game Item in America in 1980 with 2.2 million units sold.
+
+26
+00:02:35,260 --> 00:02:39,840
+Two years later, Nintendo entered the handheld
+market releasing their Game & Watch series.
+
+27
+00:02:39,840 --> 00:02:46,780
+Supposedly, creator Gunpei Yokoi was inspired for this handheld from watching a bored guy on a train play with a calculator to pass time.
+
+28
+00:02:46,780 --> 00:02:52,020
+Yokoi also invented a little thing called the D-pad for this handheld, now a standard on controllers.
+
+29
+00:02:52,020 --> 00:02:56,700
+Like Mattel’s games, these handheld electronic
+games had just a single game per device.
+
+30
+00:02:56,700 --> 00:02:59,880
+The upsell was that they also featured a clock
+and alarm.
+
+31
+00:02:59,880 --> 00:03:03,840
+It also helped that they featured games that were already being played in arcades such as Donkey Kong.
+
+32
+00:03:03,840 --> 00:03:09,100
+Now you would think that Nintendo would hold the title of first handheld console but that goes to the Milton Bradley company.
+
+33
+00:03:09,100 --> 00:03:14,860
+Microvision was released in 1979 and was the first handheld console with interchangeable game cartridges.
+
+34
+00:03:14,860 --> 00:03:19,540
+The Microvision saw initial success grossing
+$15 million in its first year.
+
+35
+00:03:19,540 --> 00:03:27,220
+But the devices were doomed, having only a few games, and several problems like cartridges that could be damaged by static electricity and screen rot.
+
+36
+00:03:27,220 --> 00:03:30,680
+By 1981, the Microvision handheld console
+was discontinued.
+
+37
+00:03:30,680 --> 00:03:37,360
+It would be almost a decade later until we see some of the big players in handheld consoles emerge – Nintendo, Sega, and Playstation.
+
+38
+00:03:37,360 --> 00:03:43,180
+Though these weren’t the only players in the handheld console market, these were, and in the case of Nintendo, still are, the most dominant.
+
+39
+00:03:43,180 --> 00:03:48,400
+Now, it’s really Nintendo that popularized the handheld console with their release of the Game Boy in 1989.
+
+40
+00:03:48,400 --> 00:03:51,660
+And they are still dominating the market,
+but we will get to that a little later.
+
+41
+00:03:51,660 --> 00:03:54,020
+And I should give a shout out here to Atari.
+
+42
+00:03:54,020 --> 00:03:59,880
+They attempted to enter the handheld market with the Atari Lynx in direct competition with the Game Boy, albeit a few months later.
+
+43
+00:03:59,880 --> 00:04:09,360
+Even with graphics that could rival the top home consoles at the time, the Lynx and its second attempt with the Lynx II couldn’t beat the size, price, or 2 month lead in the market that helped Game Boy succeed.
+
+44
+00:04:09,360 --> 00:04:18,280
+And the Game Boy would go on to become one of the most successful handheld consoles ever, selling over 118 million units in all of its various forms.
+
+45
+00:04:18,280 --> 00:04:22,220
+And the Game Boy wasn’t exactly the most
+technologically advanced handheld on the market.
+
+46
+00:04:22,220 --> 00:04:30,080
+It didn’t come close to other handhelds like the NEC Turbo Express which had an impressive color display and functioned as a portable TV.
+
+47
+00:04:30,080 --> 00:04:34,940
+What it did have was a price that appealed to the average consumer and a large selection of games.
+
+48
+00:04:34,940 --> 00:04:38,540
+Bundling the system with the incredibly popular
+Tetris probably helped too.
+
+49
+00:04:38,540 --> 00:04:47,640
+Aside from some changes in design, including the Game Boy Pocket, which replaced the green screen with a grayscale display, Nintendo’s next big contribution was the Game Boy Color in 1998.
+
+50
+00:04:47,640 --> 00:04:52,080
+As the name suggests, Nintendo finally moved
+to a color display with improved graphics.
+
+51
+00:04:52,080 --> 00:04:57,240
+And the Game Boy Color was compatible with the original Game Boy games, so your personal library was still useful.
+
+52
+00:04:57,240 --> 00:05:02,880
+The Game Boy Color also introduced very basic wireless communication between two Game Boy devices.
+
+53
+00:05:02,880 --> 00:05:06,880
+Nothing too advanced but something we’ll definitely see improved in future Nintendo handhelds.
+
+54
+00:05:06,880 --> 00:05:14,080
+And just 3 years after releasing the Game Boy Color, Nintendo produced a more advanced handheld with the 32-bit Game Boy Advance or GBA.
+
+55
+00:05:14,080 --> 00:05:23,260
+The GBA was designed to have the buttons at the sides of the screen making for more comfortable play, and it could be linked directly into the GameCube with a cable allowing it to be used as an extra controller.
+
+56
+00:05:23,260 --> 00:05:27,460
+Keeping with the 3 year release theme, the
+Nintendo DS came out in 2004.
+
+57
+00:05:27,460 --> 00:05:36,460
+But this time, gamers were slow to warm up, unsure of the dual screens and Nintendo’s intentions for this device, as it was being sold alongside the Game Boy Advance and the GameCube at the same time.
+
+58
+00:05:36,460 --> 00:05:43,260
+The DS was the first to allow wireless internet connection, allowing for wireless multiplayer, being able to connect to the Wii, and of course the internet.
+
+59
+00:05:43,260 --> 00:05:52,600
+The Nintendo DS would eventually lead to the Nintendo 3DS, which is more powerful and boasts a screen that can be adjusted to be glasses-free 3D as well as a 3D camera.
+
+60
+00:05:52,600 --> 00:05:57,840
+Oh yeah, and Nintendo also created the 2DS
+to appease those anti-3D, anti-hinge folks.
+
+61
+00:05:57,840 --> 00:05:59,140
+You know who you are.
+
+62
+00:05:59,140 --> 00:06:04,880
+Just like in the home console market, Sega was one of the few to successfully challenge Nintendo’s dominance on the handheld market.
+
+63
+00:06:04,880 --> 00:06:11,800
+The Game Gear, released in the US in 1991, boasted a color screen, a decent game selection, and an affordable price.
+
+64
+00:06:11,800 --> 00:06:14,800
+It even came with a game similar to Tetris – Columns.
+
+65
+00:06:14,810 --> 00:06:19,000
+The Game Gear did pretty well, selling over
+500,000 units in the first year.
+
+66
+00:06:19,000 --> 00:06:25,560
+But five years later, Sega would release its final handheld, the Sega Nomad, which was meant to be a portable version of the Genesis.
+
+67
+00:06:25,560 --> 00:06:32,540
+Despite the great game library – virtually all of the Genesis games – the handheld wasn’t quite portable enough with its bulky design.
+
+68
+00:06:32,550 --> 00:06:37,630
+And it was also incredibly power hungry – like
+6 batteries lasted only 2 hours.
+
+69
+00:06:37,630 --> 00:06:44,660
+The release of the Nomad was also at the end of the Genesis console’s lifecycle which led to its discontinuation 4 years later.
+
+70
+00:06:44,660 --> 00:06:46,680
+But Sega’s gonna be OK, right?
+
+71
+00:06:46,680 --> 00:06:57,760
+Now, PlayStation didn’t get into the handheld market until 2005 with the PlayStation Portable or PSP, but it also gave Nintendo some competition, selling 82 million units including its various redesigns.
+
+72
+00:06:57,760 --> 00:07:03,240
+Despite its high price, the PSP was well regarded with its sleek design, powerful hardware, and multimedia capabilities.
+
+73
+00:07:03,240 --> 00:07:09,120
+The PSP was in production for just under 9 years, lasting longer than many of the other handhelds in the market.
+
+74
+00:07:09,120 --> 00:07:14,240
+It’s successor, the PlayStation Vita, came out in 2012 – there was a little bit of overlap between the two.
+
+75
+00:07:14,240 --> 00:07:17,480
+The handheld was designed with more multimedia
+functions in mind.
+
+76
+00:07:17,480 --> 00:07:20,880
+Sony wanted to blend the experience of console
+video gaming with mobile gaming.
+
+77
+00:07:20,880 --> 00:07:35,280
+But unlike the PSP, the vita had a sharp decline after its initial sales, and even with a redesign and shift in focus that attempted to link the device to the PS4, the Vita just hasn’t been able to compete, selling only 13 million units worldwide as of January 2016.
+
+78
+00:07:35,280 --> 00:07:44,560
+Handhelds in general have been quite popular since their start with Mattel’s Auto Race, but there’s one trend in handhelds that never really got off the ground: handheld convergence devices.
+
+79
+00:07:44,560 --> 00:07:47,220
+Think a Palm Pilot mixed with a Game Boy.
+
+80
+00:07:47,220 --> 00:07:53,840
+These devices tried to tie together the portable gaming capabilities of the handheld console with the convenience of internet access on the go.
+
+81
+00:07:53,840 --> 00:07:59,600
+Unfortunately, the majority of these devices could do neither function well, and just couldn’t make it with the rise of mobile gaming.
+
+82
+00:07:59,600 --> 00:08:01,980
+The first of these devices was Tiger’s game.com
+
+83
+00:08:01,980 --> 00:08:04,700
+I know it looks like game dot com, but it's
+pronounced game-com.
+
+84
+00:08:04,700 --> 00:08:13,480
+Though it was released in 1997, it was pretty advanced, having a touch screen and internet access for text based browsing – though you had to connect to a dial-up modem to use this feature.
+
+85
+00:08:13,480 --> 00:08:18,320
+But these features couldn’t overshadow the
+lack of game library and the slow modem.
+
+86
+00:08:18,330 --> 00:08:23,410
+The device was ultimately a failure, selling
+less than 300,000 units in its 3 year lifespan.
+
+87
+00:08:23,410 --> 00:08:27,450
+It was also just the start of the long list
+of failed handheld convergence devices.
+
+88
+00:08:27,450 --> 00:08:30,680
+Next up was GamePark’s GP32 in 2001.
+
+89
+00:08:30,680 --> 00:08:34,320
+The system was released in South Korea, but
+never made it anywhere else.
+
+90
+00:08:34,320 --> 00:08:42,100
+Despite its limited release, the system did gain popularity among the do-it-yourself gamers thanks to its open-source platform and emphasis on user-generated content.
+
+91
+00:08:42,100 --> 00:08:47,780
+Shortly after its failure, GamePark re-assembled
+as GamePark Holdings and created the GP2X.
+
+92
+00:08:47,780 --> 00:08:48,760
+It also failed.
+
+93
+00:08:48,760 --> 00:08:58,140
+Then there was the Tapwave Zodiac in 2003, which managed to get a few big titles such as Madden Football and Tony Hawk’s Pro Skater, and had some decent features such as an MP3 player.
+
+94
+00:08:58,140 --> 00:09:03,140
+It managed to sell over 200,000 units, but that wasn’t enough to compete with the Nintendo DS and Sony PSP.
+
+95
+00:09:03,140 --> 00:09:10,880
+Then there was Tiger Telematics’ Gizmondo in 2005 which tried to do it all, which it did with a fairly powerful system, just not well.
+
+96
+00:09:10,880 --> 00:09:16,900
+Between its high price and lack of intriguing games or apps, the Gizmondo never really got its start and was discontinued within a year.
+
+97
+00:09:16,900 --> 00:09:26,240
+And Pandora which came out in 2010, was originally created by a community of gamers that needed to fill the open-source handheld hardware gap that GamePark’s GP2X left behind.
+
+98
+00:09:26,240 --> 00:09:32,420
+Pandora is able to run open-source gaming software, it can function as an emulator, and it can function as a computer-running Linux.
+
+99
+00:09:32,430 --> 00:09:35,510
+Though this device didn’t sell well, it
+does still have a dedicated fan base.
+
+100
+00:09:35,510 --> 00:09:42,400
+But even though handheld convergence devices failed, they did set the stage for the true competition to handheld gaming: mobile gaming.
+
+101
+00:09:42,400 --> 00:09:48,040
+Smart phones and tablets managed to succeed by being a useful device that does it all – including gaming.
+
+102
+00:09:48,040 --> 00:09:51,300
+You don’t have to carry around a separate device – all you need is your phone, you got some games.
+
+103
+00:09:51,300 --> 00:10:00,140
+But even though smart phones and tablets are easily accessible, there are of course some advantages to dedicated gaming devices such better controls – but we’ll get to that in our episode on input devices.
+
+104
+00:10:00,140 --> 00:10:02,620
+And maybe not all is lost when it comes to
+handheld gaming.
+
+105
+00:10:02,620 --> 00:10:13,900
+Nintendo is not letting handhelds go by the wayside and may very well reinvent them with the Nintendo NX which according to rumors looks like a possible home-console-portable-device hybrid thingy, serving both needs in one.
+
+106
+00:10:13,900 --> 00:10:17,080
+We’ll just have to wait and see.
+Probably during a Nintendo Direct.
+
+107
+00:10:17,080 --> 00:10:19,400
+Thanks for watching, and we'll see you next time.
+
+108
+00:10:19,400 --> 00:10:25,640
+Crash Course Games is filmed in the Chad and Stacey Emigholz Studio in Indianapolis, Indiana and its made with the help of all these nice people.
+
+109
+00:10:25,640 --> 00:10:33,220
+If you'd like to keep Crash Course free for everyone forever, you can support the series at Patreon, a crowdfunding platform that allows you to support the content you love.
+
+110
+00:10:33,220 --> 00:10:41,520
+Speaking of Patreon, we'd like to thank all our patrons in general, and we'd like to specifically thank our high chancellor of knowledge Morgan Lizop and our Vice Principal, Michael Hunt.
+
+111
+00:10:41,520 --> 00:10:42,880
+Thank you for your support.
+

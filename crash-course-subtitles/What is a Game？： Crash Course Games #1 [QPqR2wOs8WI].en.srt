@@ -1,0 +1,636 @@
+1
+00:00:00,000 --> 00:00:03,889
+Hi! I'm Andre Meadows, and this is Crash Course Games. In this series, we're going
+
+2
+00:00:03,889 --> 00:00:08,280
+to look at everything from the ancient
+games depicted on cave walls, to board games,
+
+3
+00:00:08,280 --> 00:00:12,560
+to the rise of the arcade machine, to
+home consoles, to virtual reality,
+
+4
+00:00:12,560 --> 00:00:17,380
+to role playing games and, hey nerds, even sports
+-- all games are created equal.
+
+5
+00:00:17,380 --> 00:00:22,500
+Games are used in schools and to treat medical conditions. They were used to train warriors for combat.
+
+6
+00:00:22,500 --> 00:00:26,900
+Some games have international tournaments, some even have very real political consequences.
+
+7
+00:00:26,900 --> 00:00:29,760
+There are games that you can play alone
+(tear)
+
+8
+00:00:29,760 --> 00:00:33,080
+And there are games that millions of people at a time can play together.
+
+9
+00:00:33,080 --> 00:00:37,740
+Some of these create a world -- some even have their own economics! Gaming affects millions of
+
+10
+00:00:37,740 --> 00:00:42,960
+players all over the world and makes an 
+impact on popular culture and... "culture" culture!
+
+11
+00:00:42,960 --> 00:00:47,480
+I've got as many interesting game facts and stories for you as a Pokedex has  Pokemon.
+
+12
+00:00:47,480 --> 00:00:51,740
+How many Pokemon are there now? Like 850-something? After 151 I am done.
+
+13
+00:00:51,740 --> 00:00:56,520
+So sit back, hit the pause button on whatever you're playing and prepare for a multi pixel journey through
+
+14
+00:00:56,520 --> 00:01:00,980
+the history of games. And remember:
+it's dangerous to go alone... take this!
+
+15
+00:01:00,980 --> 00:01:10,220
+[Theme Music]
+
+16
+00:01:10,220 --> 00:01:16,160
+Before we drop into all this like a
+misplaced tetrad, tetrazoid, tetrazone, tetris piece
+
+17
+00:01:16,160 --> 00:01:20,580
+We need to orient ourselves. We should
+answer a basic question: What is a game?
+
+18
+00:01:20,580 --> 00:01:24,760
+The dictionary will tell you 'a game
+is a construct that organizes play
+
+19
+00:01:24,780 --> 00:01:28,920
+through a series of rules for the purpose of
+achieving a set of goals overcoming an
+
+20
+00:01:28,920 --> 00:01:34,040
+obstacle and/or attaining an objective'.
+That's a decent definition. I would call
+
+21
+00:01:34,040 --> 00:01:38,440
+games "entertainment" but they're a very
+specific kind of "entertainment".
+
+22
+00:01:38,440 --> 00:01:42,460
+Game designer Chris Crawford came up
+with a really cool hierarchy to explain this.
+
+23
+00:01:42,460 --> 00:01:47,720
+To start, Crawford characterizes any kind
+of interactive entertainment as a play thing;
+
+24
+00:01:47,720 --> 00:01:50,400
+anything that you interact with to entertain yourself qualifies.
+
+25
+00:01:50,400 --> 00:01:56,260
+But there are also two types of playthings:
+a play thing without a goal like a slinky is a toy,
+
+26
+00:01:56,260 --> 00:02:00,820
+but when there's a goal involved like trying to get the slinky down the stairs, Crawford calls that a challenge.
+
+27
+00:02:00,820 --> 00:02:08,240
+Now if you're working to complete this challenge with no other active agent or person involved, it turns out you're working on a puzzle.
+
+28
+00:02:08,240 --> 00:02:12,000
+But when there is some kind of second party involved, then you have a conflict.
+
+29
+00:02:12,000 --> 00:02:17,320
+Ok, we're almost there. Crawford subdivides
+conflicts into competitions and games.
+
+30
+00:02:17,320 --> 00:02:20,980
+In a competition the participants don't
+interact or interfere with each other.
+
+31
+00:02:20,980 --> 00:02:26,000
+A good example of a competition is figure skating.
+Everybody's skating to win but they
+
+32
+00:02:26,000 --> 00:02:28,640
+can't really affect each other's
+performances.
+
+33
+00:02:28,640 --> 00:02:34,540
+Well, except for that one time with Tonya Harding and Nancy Kerrigan but, you know, look it up.
+
+34
+00:02:34,540 --> 00:02:40,800
+Mario Kart though, now that's a game. Players interact continuously, blocking and passing, and there's no
+
+35
+00:02:40,800 --> 00:02:45,220
+clearer example of interference than when you're
+in first place and one of your friends in 8th place
+
+36
+00:02:45,220 --> 00:02:48,880
+and they use a blue shell and take you out and take the leap. Why do you always do that to me, Katie?
+
+37
+00:02:48,880 --> 00:02:51,960
+It's not cool! And here's an
+interesting thing to think about:
+
+38
+00:02:51,960 --> 00:02:55,520
+You don't have to be playing against a
+person for something to be a game.
+
+39
+00:02:55,520 --> 00:02:59,480
+Those soldiers blocking your path in Metal
+Gear are artificial intelligence or AI
+
+40
+00:02:59,489 --> 00:03:02,790
+agents trying to stop you from
+accomplishing your goal.
+
+41
+00:03:02,790 --> 00:03:06,070
+The rules of solitaire can be
+constructed as an agent working to stop you
+
+42
+00:03:06,070 --> 00:03:10,320
+from completing the game. So games have
+goals like scoring points or saving the
+
+43
+00:03:10,320 --> 00:03:13,000
+princess and we achieve those goals by
+following the rules,
+
+44
+00:03:13,000 --> 00:03:17,280
+like moving our game piece six places if we roll a six on the die or ending
+
+45
+00:03:17,280 --> 00:03:21,820
+our turn if we've spent all of our mana. Of course
+none of this matters unless you want to play.
+
+46
+00:03:21,820 --> 00:03:28,740
+Voluntary participation is essential, otherwise it's work.
+I'd also like to get at why we play games,
+
+47
+00:03:28,740 --> 00:03:33,260
+but that's a little harder. The short answer is,
+there is no short answer. There is no
+
+48
+00:03:33,270 --> 00:03:37,610
+universal unified theory of why we play
+games. There's no constitution of gaming,
+
+49
+00:03:37,610 --> 00:03:41,580
+no ten commandments of gaming. Different
+games work on our brains in different ways.
+
+50
+00:03:41,580 --> 00:03:49,120
+Games like Tetris appeal to our desire to create order. Something like Animal Crossing lets us be the center of a whole tiny universe.
+
+51
+00:03:49,120 --> 00:03:54,220
+Games like World of Warcraft or Destiny
+let us live a remarkable life in another world.
+
+52
+00:03:54,220 --> 00:03:58,800
+Games like Candy Crush lets us crush candy.
+We play games for a lot of different reasons.
+
+53
+00:03:58,800 --> 00:04:03,160
+Let's leave behind the mystery of why we
+play for a while and talk about what can
+
+54
+00:04:03,160 --> 00:04:06,460
+a game be and what can a game do. Take
+video games.
+
+55
+00:04:06,460 --> 00:04:09,480
+Modern video games can be a bit
+formulaic but recent technological
+
+56
+00:04:09,480 --> 00:04:13,410
+advances have made games available to a
+wider audience and they've made the
+
+57
+00:04:13,410 --> 00:04:20,200
+tools to create games widely available
+and that's well... a game-changer! Get it?
+
+58
+00:04:20,200 --> 00:04:25,110
+A game-changer! You see cause we're talking
+games. A larger audience and a larger pool
+
+59
+00:04:25,110 --> 00:04:29,360
+of creators means a wider variety of
+games that get produced. Sure, you'll get
+
+60
+00:04:29,360 --> 00:04:33,700
+Call of Duty and the annual licensed NFL
+game that cost millions to make and sells millions
+
+61
+00:04:33,700 --> 00:04:37,590
+of copies but more gamers and lower
+production and distribution costs means
+
+62
+00:04:37,590 --> 00:04:41,810
+quirky games like Braid or Super Meat Boy
+or Shovel Knight. Games that might have
+
+63
+00:04:41,810 --> 00:04:45,780
+relatively small audiences can be
+profitable and sometimes those quirky
+
+64
+00:04:45,780 --> 00:04:50,370
+independent games can get so profitable
+and so popular that soon they hit a wide
+
+65
+00:04:50,370 --> 00:04:55,440
+audience just as much as a Triple A title.
+And when I say wide audience I mean WIDE audience.
+
+66
+00:04:55,440 --> 00:05:01,200
+In the United States alone there are
+around 145 million video game players.
+
+67
+00:05:01,200 --> 00:05:07,040
+37% of those players are over the age
+of 36 and 18% are under 18.
+
+68
+00:05:07,040 --> 00:05:12,180
+That kind of breaks the gamers stereotype, doesn't it? And increasingly games are part of players' daily lives.
+
+69
+00:05:12,180 --> 00:05:18,160
+According to video game academic Jane McGonigal by 2010 the average video game player in the US
+
+70
+00:05:18,169 --> 00:05:23,389
+played for 22 hours a week. That's like watching
+all the Harry Potter movies in order,
+
+71
+00:05:23,389 --> 00:05:28,860
+and then watching Chamber of Secrets again every week! That's a dedicated Harry Potter fan.
+
+72
+00:05:28,860 --> 00:05:33,820
+Clearly we're spending a lot of time playing video games so what's this doing to us?
+
+73
+00:05:33,820 --> 00:05:40,920
+We now have entire schools devoted to gaming and almost every major university offers classes and degrees related to games.
+
+74
+00:05:40,920 --> 00:05:44,260
+The University of Southern California, University of Utah, and Savannah College
+
+75
+00:05:44,260 --> 00:05:49,480
+of Art and Design all have renowned programs
+in game art, programming, and design.
+
+76
+00:05:49,480 --> 00:05:53,020
+The gaming industry makes so much money. Even
+more sometimes than movies and television!
+
+77
+00:05:53,020 --> 00:05:55,610
+There are even people right now on
+YouTube
+
+78
+00:05:55,610 --> 00:06:00,810
+who are making a living playing video
+games, on camera - that's a job! And it's not just
+
+79
+00:06:00,810 --> 00:06:05,090
+about learning how to make games or make
+money off of games. Massively multiplayer
+
+80
+00:06:05,090 --> 00:06:10,760
+game worlds can provide insights across disciplines. Sociologists can study how people form groups.
+
+81
+00:06:10,760 --> 00:06:13,140
+Economists can finally see if their models work.
+
+82
+00:06:13,140 --> 00:06:18,720
+And in 2005 World of Warcraft became a legitimate
+subject of study for epidemiologists.
+
+83
+00:06:18,730 --> 00:06:24,150
+Let's go to the Thought Bubble. In 2005 a plague hit
+World of Warcraft. The game's developers
+
+84
+00:06:24,150 --> 00:06:28,730
+introduced a new mission that called on
+players to defeat a boss named Hakkar the
+
+85
+00:06:28,730 --> 00:06:33,790
+Soulflayer, blood god of the Gurubashi trolls. Is Gurubashi right? Whatever.
+
+86
+00:06:33,790 --> 00:06:39,680
+When players attacked Hakkar, he cast a spell called Corrupted Blood, which drained the players hit points.
+
+87
+00:06:39,680 --> 00:06:44,540
+The spell was intended to be contagious but it was only supposed to spread in that part of the game.
+
+88
+00:06:44,540 --> 00:06:48,770
+Well, it turns out Corrupted Blood was kind
+of like a real world pathogen and it got out of
+
+89
+00:06:48,770 --> 00:06:52,680
+the intended area and spread to the
+entire game world. According to an
+
+90
+00:06:52,680 --> 00:06:56,970
+article from Reuters the major towns and
+cities were abandoned by the population
+
+91
+00:06:56,970 --> 00:07:01,280
+as panic set in and players rushed to
+evacuate to the relative safety of the
+
+92
+00:07:01,280 --> 00:07:05,490
+countryside, leaving urban areas filled
+to the brim with corpses and the city
+
+93
+00:07:05,490 --> 00:07:08,460
+streets literally white with the bones of the dead.
+
+94
+00:07:08,460 --> 00:07:12,960
+This is where science got interested. The Journal of Epidemiology compared Corrupted Blood to
+
+95
+00:07:12,970 --> 00:07:18,260
+real-life SARS and avian influenza outbreaks.
+Terrorism experts also studied the event.
+
+96
+00:07:18,260 --> 00:07:21,640
+They looked at the decision by
+some gamers to intentionally infect
+
+97
+00:07:21,640 --> 00:07:26,760
+other players and this provided some insight
+into how terrorist cells form in the real world.
+
+98
+00:07:26,760 --> 00:07:30,400
+In the end game developers
+had to invoke the nuclear option and
+
+99
+00:07:30,410 --> 00:07:34,300
+reset the game service to undo the havoc
+wrought by Hakkar the Soulflayer, blood
+
+100
+00:07:34,300 --> 00:07:39,480
+god of the Gurubashi trolls and, apparently,
+bio terrorist. Thanks, Thought Bubble!
+
+101
+00:07:39,480 --> 00:07:42,900
+Games also make their way into
+daily life through gamification.
+
+102
+00:07:42,900 --> 00:07:46,920
+This grows out of achievement systems some
+video games use to reward players in
+
+103
+00:07:46,920 --> 00:07:51,040
+addition to the normal game objectives.
+These systems have proven to be very motivational,
+
+104
+00:07:51,040 --> 00:07:54,280
+so why not try them out in real life?
+Purdue is doing this.
+
+105
+00:07:54,280 --> 00:07:57,700
+Some schools reward students with badges
+when they pass tests or complete
+
+106
+00:07:57,710 --> 00:08:01,440
+homework assignments. Gamification is
+also used in fitness. For example some
+
+107
+00:08:01,440 --> 00:08:05,110
+fitness apps award badges for walking
+around and even let users compete with
+
+108
+00:08:05,110 --> 00:08:10,610
+friends for the highest step count. Oh, that reminds
+me, hold on. This counts as steps, right?
+
+109
+00:08:10,610 --> 00:08:14,700
+Academic studies also seem to validate time spent
+gaming.  Studies from China and Australia
+
+110
+00:08:14,700 --> 00:08:18,880
+indicate that expert-level video game
+players have a measurable increase in
+
+111
+00:08:18,880 --> 00:08:22,920
+cognitive functions, perception, and motor
+control. These players were found to have
+
+112
+00:08:22,920 --> 00:08:26,500
+increased gray matter and increased
+connectivity in their brains!
+
+113
+00:08:26,500 --> 00:08:30,040
+So next time your mom says you're playing too much video games, you go "hey mom I'm increasing my
+
+114
+00:08:30,040 --> 00:08:33,360
+gray matter." A hospital in Florida
+studied their surgeons who played video
+
+115
+00:08:33,360 --> 00:08:36,620
+games before performing surgery and
+found that surgeons who played video
+
+116
+00:08:36,620 --> 00:08:41,500
+games for more than three hours in a
+week made 37 percent fewer errors. They were 27
+
+117
+00:08:41,500 --> 00:08:45,170
+percent faster during surgery over those
+surgeons who did not. Gaming also has
+
+118
+00:08:45,170 --> 00:08:49,230
+cool applications in medicine. An Oxford
+University study indicated that playing
+
+119
+00:08:49,230 --> 00:08:53,730
+Tetris can reduce the after effects of
+psychological trauma and might offer relief
+
+120
+00:08:53,730 --> 00:08:57,210
+of PTSD symptoms. There's this virtual
+reality game called Snow World.
+
+121
+00:08:57,210 --> 00:09:01,380
+It's played on the Oculus Rift and it's used for
+pain management. Burn victims report
+
+122
+00:09:01,390 --> 00:09:05,190
+less pain during bandage removal and
+reapplication while playing this game.
+
+123
+00:09:05,190 --> 00:09:09,010
+Another example is the online game
+Fold It. In this game thousands of
+
+124
+00:09:09,010 --> 00:09:13,720
+players help doctors an computers fold proteins and other structures to support drug research.
+
+125
+00:09:13,720 --> 00:09:21,480
+In 2011 players helped scientists solve a decade old problem in under 10 days! That's the power of games!
+
+126
+00:09:21,480 --> 00:09:25,280
+So what we're saying here is that
+games can be a positive force in the world.
+
+127
+00:09:25,280 --> 00:09:28,860
+And that's why we're going to spend the next twenty weeks or so playing with these ideas.
+
+128
+00:09:28,860 --> 00:09:34,840
+So press Start or set up the board or tee up the ball or whatever. Let's play! Thanks for watching.
+
+129
+00:09:34,850 --> 00:09:39,370
+We'll see you next week. Now if you
+excuse me, I got some roads to crossy.
+
+130
+00:09:39,370 --> 00:09:44,560
+Crash Course Games is filmed in the Chad and Stacey
+Emigholz Studio in Indianapolis, Indiana,
+
+131
+00:09:44,560 --> 00:09:48,560
+and it is made with the help of all
+these nice people. If you'd like to keep Crash
+
+132
+00:09:48,560 --> 00:09:54,490
+Course free for everyone forever, you can support the series at Patreon, a crowdfunding platform that allows you to support
+
+133
+00:09:54,490 --> 00:09:59,190
+the content you love. Speaking of patreon, we'd like to thank all our patreons in general, and we'd like to
+
+134
+00:09:59,190 --> 00:10:04,060
+specifically thank our high chancellor of
+knowledge Brett Henderson, MD, our headmaster
+
+135
+00:10:04,060 --> 00:10:09,020
+of learning Linnea Boyev, and our vice principal Mike Hunt. Thank you for your support.
+
