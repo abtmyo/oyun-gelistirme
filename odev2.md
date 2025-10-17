@@ -22,5 +22,11 @@ Her grup adina bir kisinin Github'a odev yuklemesi yeterlidir.
 
 Grup uyelerinin bolum grubunda ilan edilmistir.
 
+Oyunun kodlarini yapay zekaya yazdirmayiniz.
+
+Her grup uyesi oyununun gelistilmesine kayda deger bir katki sunmak zorundadir.
+
+Her bir grup uyesinin gonderilecek oyun kodunu aciklayabilmesi beklenmektedir.
+
 
 
