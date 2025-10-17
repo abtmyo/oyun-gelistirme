@@ -16,7 +16,7 @@ Oyunu pek çok şekilde farklılaştırabilirsiniz. Bazi yaratici oneriler:
 Bu oyun yazabilmek için dizi ve döngüleri kullanmanız gerekecektir. 
 
 Oyunu p5.js kullanarak kodlayiniz. Oyun Kodunun linkini https://classroom.github.com/a/agi1xeP0 bağlantısını tıklayarak oluşturacağınız repodaki README.md dosyasına ekleyip,
-23 Ekim 10:00 oncesinde commit ediniz.
+22 Ekim 10:00 oncesinde commit ediniz.
 
 Her grup adina bir kisinin Github'a odev yuklemesi yeterlidir.
 
@@ -27,6 +27,8 @@ Oyunun kodlarini yapay zekaya yazdirmayiniz.
 Her grup uyesi oyununun gelistilmesine kayda deger bir katki sunmak zorundadir.
 
 Her bir grup uyesinin gonderilecek oyun kodunu aciklayabilmesi beklenmektedir.
+
+Bu grup odevi haricinde gelistirdigini bireysel bir oyun varsa, oyununuzun linkini https://github.com/abtmyo/oyun-gelistirme/discussions/4 baglantisindaki baslikta 22 Ekim tarihli ders oncesinde paylasiniz.
 
 
 
