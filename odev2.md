@@ -3,13 +3,13 @@
 https://www.youtube.com/watch?v=VM5QS_adrIQ bağlantısındaki videoyu seyredin. Videonun ilk 30 saniyesini dikkate almayınız. Burada yapılan testteki ana fikiri yaratıcılığınızı da kullanarak
 oyunlaştırınız. 
 
-###### Oyunun ana fikrini şu şekilde ifade edebiliriz: Bir dizi sıralı objeyi ekranda kısa süreliğini göstermek ve sonrasında bu objelerin konumlarına oyuncunun doğru sırada basıp basmadığını tespit etmek.
+###### Oyunun ana fikrini şu şekilde ifade edebiliriz: Bir dizi sıralı objeyi ekranda kısa süreliğini göstermek ve sonrasında bu objeleri temsil eden alanlara oyuncunun doğru sırada basıp basmadığını tespit etmek.
 
 Oyunu pek çok şekilde farklılaştırabilirsiniz. Bazi yaratici oneriler:
 
 * Sayı yerine harf gösterimi
-* Sayılar kare olarak kapatıldıktan sonra karelerin hareket etmesi
-* Sayıları kapattıktan sonra sayıların olduğu yerlerde kare bile göstermeme. Oyuncunun bastığı yerin koordinatlarının basması gereken sayının koordinatlarına olan uzaklığına göre puanlandırma.
+* Sayılar kare olarak gizlendikten sonra karelerin hareket etmesi
+* Sayıları kisa bir sure gosterdikten sonra, sayıların bolgelerini temsil eden kareleri bile göstermemek. Oyuncunun bastığı yerin koordinatlarının basması gereken sayının koordinatlarına olan uzaklığına göre puanlandırma.
 
 Örnek bir oyun implementasyonunu https://humanbenchmark.com/tests/chimp bağlantısında bulabilirisiniz.
 
