@@ -22,6 +22,10 @@ The Art of Game Design: A Book of Lenses (https://www.amazon.com/Art-Game-Design
 
 The Art of Game Design: Deck of Lenses Ucretsiz (https://deck.artofgamedesign.com/#/menu/0/?lang=en)
 
+## Odev Cozumleri
+
+https://gusanmaz.github.io/chimp.html
+
 
 
 
