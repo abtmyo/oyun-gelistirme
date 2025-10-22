@@ -27,7 +27,7 @@ The Art of Game Design: Deck of Lenses Ucretsiz (https://deck.artofgamedesign.co
 2. Odev
 
 * https://chatgpt.com/share/68f8a70a-0570-8009-90b3-de51b38d2ddb
-* * https://gusanmaz.github.io/chimp.html
+*  https://gusanmaz.github.io/chimp.html
 
 
 
