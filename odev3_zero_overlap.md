@@ -1,4 +1,4 @@
-## 🎮 **P5.js Ödevi — “Zero Overlap / Temassız”**
+## 🎮 **P5.js Ödevi — “Zero Overlap”**
 
 ### 🎯 **Amaç**
 
@@ -64,9 +64,9 @@ Oyunun örnek sürümünü burada oynayabilirsiniz:
 
   * **`sketch.js`** (zorunlu)
   * **`index.html`** (isteğe bağlı; isterseniz editor.p5js.org’dan indirilen temel şablonu ekleyebilirsiniz)
-* Her şey aynı klasörde bulunmalıdır.
-* **Zip dosyası yüklemeyin.** Sadece commit + push işlemi yapın.
-* Kodunuzu tarayıcıda açtığınızda oyun doğrudan çalışmalıdır.
+* Her şey aynı klasörde (reponun kok dizininde) bulunmalıdır.
+* **Zip dosyası yüklemeyin.** .
+* **`sketch.js`** dosyasi https://editor.p5js.org/ baglantisindan olusturulacak yeni bir sketch'e kopyalanadiginda oyun sorunuz calisabilmelidir.
 
 ---
 
@@ -76,6 +76,7 @@ Oyunun örnek sürümünü burada oynayabilirsiniz:
 * Her değişiklikten sonra `git add .` → `git commit -m "update"` → `git push` adımlarını izleyin.
 * `index.html` kullanıyorsanız, `<script src="sketch.js"></script>` satırının doğru olduğuna emin olun.
 * Ya da yukaridaki adimlari Github.com uzerinden grafiksel arayuz yardimi ile yapabilirsiz. (Create file, edit file, commit changes)
+* Github kaynakli yasayacaginiz sorunlar icin arkadaslarinizdan yardim alabilir ya da dersin hocasi ile iletisime gecebilirsiniz.
 * Kodunuzu açıklama satırlarıyla (// yorumlar) belgelendirin.
 
 ---
