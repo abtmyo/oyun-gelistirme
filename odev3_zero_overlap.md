@@ -31,9 +31,9 @@ Oyunun örnek sürümünü burada oynayabilirsiniz:
 2. **Değişkenler** → `let`, `const`
 3. **Koşullu ifadeler** → `if / else`, karşılaştırma operatörleri
 4. **Döngüler** → `for` döngüsü (çemberleri kontrol etmek için)
-5. **Fonksiyonlar** → kendi alt görevlerinizi düzenleyin
+5. **Fonksiyonlar** → kendi alt görevlerinizi düzenleyin (Zorunlu degil ama daha temiz kod yazabilmeniz icin gerekli olabilir)
 6. **Diziler** → birden fazla çemberi saklamak için
-7. **Sınıflar / Nesne tabanlı programlama** → `class Circle { ... }`
+7. **Sınıflar / Nesne tabanlı programlama** → `class Circle { ... }`  (Zorunlu degil ama daha temiz kod yazabilmeniz icin gerekli olabilir)
 8. **Fare etkileşimi** → `mousePressed()`, `mouseDragged()`, `mouseReleased()`
 9. **Zaman ölçümü** → `millis()` fonksiyonu ile süre takibi
 10. **Çarpışma denetimi** →
