@@ -1,4 +1,4 @@
-## 🎮 1D XOX Alıştırması**
+## 🎮 Expanding 1D XOX Alıştırması
 
 ### 🎯 **Amaç**
 Bu projede öğrencilerden, verilen **başlangıç kodunu** kullanarak bir **ilerlemeli XOX çizgi oyunu** geliştirmeleri istenir. Amaç: yatay bir çizgide **XOX** deseni yakalayarak seviyeleri artırmak ve zorluğu kademeli olarak yükseltmek. Oyunun örnek sürümünü burada oynayabilirsiniz: 👉 [https://gusanmaz.itch.io/xox-1d](https://gusanmaz.itch.io/xox-1d)
