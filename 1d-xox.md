@@ -65,7 +65,6 @@ function setup() {
 }
 
 function draw() {
-
 }
 
 function mousePressed(){
@@ -86,12 +85,12 @@ function mousePressed(){
   //print(squares); 
   printBoard(squares);
 
-  result = isGameOver(squares)
+  let result = isGameOver(squares)
   if (result >= 0){
     print("Win");
     won = true;
-    startX = result * cellLen + (cellLen / 2);
-    endX = startX + cellLen * 2
+    let startX = result * cellLen + (cellLen / 2);
+    let endX = startX + cellLen * 2
     line(startX, cellLen/2, endX, cellLen / 2);
   }
 }
