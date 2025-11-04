@@ -31,18 +31,6 @@ Bu projede öğrencilerden, verilen **başlangıç kodunu** kullanarak bir **ile
 
 ---
 
-### 🧮 **Değerlendirme Ölçütleri**
-| Ölçüt | Açıklama | Puan |
-| ------------------------------- | ---------------------------------------- | ------------ |
-| Temel tahta ve fare etkileşimi | Hücrelere doğru yerleştirme ve ızgara çizimi | 20 |
-| XOX desen kontrolü | Kazanan algılama ve çizgi gösterimi | 20 |
-| Seviye ilerlemesi | +1 hücre ekleme ve 20. seviye sonu | 20 |
-| Yeniden başlatma ve zamanlama | Dolma durumunda tekrar, 1 sn gecikme | 20 |
-| Kod düzeni ve okunabilirlik | Anlaşılır değişken isimleri, açıklamalar, fonksiyonlar | 20 |
-| **Toplam** | | **100 puan** |
-
----
-
 ### 🧰 **Teslim Biçimi (GitHub Classroom)**
 * GitHub Classroom davet linkine ([https://classroom.github.com/a/p5bhtIuA](https://classroom.github.com/a/p5bhtIuA)) tıklayarak **kendi repo’nuzu oluşturun.**
 * Çalışmanızı yalnızca p5.js’in çalışması için gerekli dosyalarla paylaşın:
@@ -94,7 +82,8 @@ function mousePressed(){
     }
   }
 
-  //print(squares); // Bu cagri yerine allta tanimladigimiz printBoard fonksiyonuna cagri yapiyoruz.
+  //Bu cagri yerine altta tanimladigimiz printBoard fonksiyonuna cagri yapiyoruz.
+  //print(squares); 
   printBoard(squares);
 
   result = isGameOver(squares)
