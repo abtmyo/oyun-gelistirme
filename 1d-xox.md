@@ -26,7 +26,7 @@ Bu projede öğrencilerden, verilen **başlangıç kodunu** kullanarak bir **ile
 5. **Fonksiyonlar** → kendi alt görevlerinizi düzenleyin (örneğin, seviye başlatma veya çizgi çizme; zorunlu değil ama kodunuzu temiz tutar)
 6. **Diziler** → birden fazla hücreyi saklamak için (`squares` dizisi)
 7. **Fare etkileşimi** → `mousePressed()` (hücre seçimi için)
-8. **Zaman ölçümü** → `millis()` fonksiyonu ile 5 saniye gecikme takibi
+8. **Zaman ölçümü** → `millis()` fonksiyonu ile 1 saniye gecikme takibi
 
 
 ---
