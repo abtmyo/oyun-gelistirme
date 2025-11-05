@@ -30,5 +30,88 @@ The Art of Game Design: Deck of Lenses Ucretsiz (https://deck.artofgamedesign.co
 *  https://gusanmaz.github.io/chimp.html
 
 
+```python
+/*let squares = [["", "", "", ""],
+              ["", "", "", ""],
+              ["", "", "", ""],
+              ["", "", "", ""],
+              ["", "", "", ""],
+              ["", "", "", ""]];*/
+
+//let squares = [];
+
+
+function create2DArray(){
+  sqaures = [];
+  for (let i = 0; i < 6; i++){
+    squares[i] = [];
+    for(let j = 0; j < 4; j++){
+      squares[i][j] = "";
+    }
+  }
+  return squares;
+}
+
+let squares = [];
+let letter = "X";
+
+function setup() {
+  createCanvas(600, 400);
+  drawBoard();
+  textAlign(CENTER, CENTER);
+  textSize(24);
+  //initSquares();
+  squares = create2DArray();
+  print(squares);
+  
+}
+
+function draw() {
+  //background(220);
+}
+
+function drawBoard(){
+  for (let i = 0; i < 7; i++){
+    line(i * 100, 0, i * 100, 400);
+  }
+  
+  for (let j = 0; j < 5; j++){
+    line(0, j * 100, 600, j * 100);
+  }
+}
+
+function mousePressed(){
+  let xInd = Math.floor(mouseX / 100);
+  let yInd = Math.floor(mouseY / 100);
+  print("XInd:" + xInd);
+  print("YInd:" + yInd);
+  let xCenter = xInd * 100 + (100 / 2);
+  let yCenter = yInd * 100 + (100 / 2);
+  if (squares[xInd][yInd] == ""){
+    text(letter, xCenter, yCenter);
+    squares[xInd][yInd] = letter;
+    if (letter == "X"){
+      letter = "O";
+    }else{
+      letter = "X";
+    }
+    
+    for (let rowInd = 0; rowInd < 4; rowInd++){
+      for(let colInd = 0; colInd < 4; colInd++){
+      if ((squares[colInd][rowInd] == "X") && (squares[colInd + 1][rowInd] == "O") && (squares[colInd + 2][rowInd] == "X")){
+        print("Win");
+      }
+    }
+    }
+    
+    
+    
+  }
+  //text("A", xCenter, yCenter);
+  //squares[xInd][yInd] = "A";
+  print(squares);
+}
+
+```
 
 
