@@ -209,8 +209,8 @@ function wordControl(aim, guess){
 
 #### Naming Conventions
 
-https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
-https://www.verimix.com.tr/yazilimda-adlandirma-kurallari/
+* https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
+* https://www.verimix.com.tr/yazilimda-adlandirma-kurallari/
 
 
 
