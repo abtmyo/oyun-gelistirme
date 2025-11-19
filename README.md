@@ -167,6 +167,7 @@ function selectWord3(wlist){
   return random(wlist);
 }
 
+// shuffle cagrisi diziden rastgele kelime secmek icin maliyetli.
 function selectWord4(wlist){
   //shuffle(wlist);
   //return wlist[0];
