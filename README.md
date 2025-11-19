@@ -207,6 +207,9 @@ function wordControl(aim, guess){
 }
 ```
 
+https://editor.p5js.org/gusanmaz/sketches/QEE7PUQV9
+Wordle kodunu son iki derste gosterilen VSCode ya da WebStorm editorlerinde de yazabilirsiniz.
+
 #### Naming Conventions
 
 * https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
