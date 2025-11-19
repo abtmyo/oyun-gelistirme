@@ -168,6 +168,7 @@ function selectWord3(wlist){
 }
 
 // shuffle cagrisi diziden rastgele kelime secmek icin maliyetli.
+// Neden maliyetli: https://chatgpt.com/share/691e17b2-0324-8009-8988-2928e76ac86b
 function selectWord4(wlist){
   //shuffle(wlist);
   //return wlist[0];
