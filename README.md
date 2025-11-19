@@ -114,4 +114,105 @@ function mousePressed(){
 
 ```
 
+## 19 Kasim 2025 
+
+### Kismi Wordle Oyun Kodu (Derste Yazilan)
+
+
+```js
+let data;
+let words
+
+function preload() {
+  // Dosya icerigi https://github.com/stuartpb/wordles baglantisindan alinmistir.
+  data = loadJSON("wordles.json", jsonLoaded);
+}
+
+function jsonLoaded(result) {
+  words = Object.values(result);
+}
+
+
+function setup() {
+  createCanvas(400, 400);
+  print(words);
+  print(words[0]);
+  print(words.length);
+  /*for(let i = 0; i < 100; i++){
+    let word = selectWord(words);
+    print(word)
+  }*/
+
+  //let r = isValidWord2("cigar", words);
+  //print(r);
+
+  let l = wordControl("aeghh", "ahgyh");
+  print(l);
+}
+
+function draw() {
+  background(220);
+}
+
+function selectWord(wlist){
+  let ind = Math.floor(random(0, wlist.length));
+  return wlist[ind];
+}
+
+function selectWord2(wlist){
+  return wlist[Math.floor(random(0, wlist.length))];
+}
+
+function selectWord3(wlist){
+  return random(wlist);
+}
+
+function selectWord4(wlist){
+  //shuffle(wlist);
+  //return wlist[0];
+  return shuffle(wlist)[0];
+}
+
+//Linear Search - Dogrusal Arama https://www.youtube.com/watch?v=SByG6SZdPQw
+
+function isValidWord(wlist, candidate){
+  for(let i = 0; i < wlist.length; i++){
+    if (wlist[i] == candidate){
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isValidWord2(candidate, wlist){
+  for(let i = 0; i < wlist.length; i++){
+    if (wlist[i] == candidate){
+      return true;
+    }
+  }
+
+  return false;
+
+}
+
+function wordControl(aim, guess){
+  let greenIndices = [];
+  for(let i = 0; i < aim.length; i++){
+    if (aim[i] == guess[i]){
+      greenIndices[greenIndices.length] = i;
+    }
+  }
+  return greenIndices;
+}
+```
+
+#### Naming Conventions
+
+https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
+https://www.verimix.com.tr/yazilimda-adlandirma-kurallari/
+
+
+
+
 
