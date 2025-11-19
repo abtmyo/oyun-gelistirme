@@ -123,14 +123,27 @@ function mousePressed(){
 let data;
 let words
 
+// preload fonksiyonun icindeki kodlar ilk calistirilacak kodlar olacak.
 function preload() {
   // Dosya icerigi https://github.com/stuartpb/wordles baglantisindan alinmistir.
+  /* wordles.json dosyasinin icergi JavaScript objesi olarak data degiskeninin ataniyor.
+    Bu islem bittikten sonra ise jsonLoaded fonksiyonu data argumani ile cagriliyor */
   data = loadJSON("wordles.json", jsonLoaded);
 }
 
 function jsonLoaded(result) {
-  words = Object.values(result);
+  words = Object.values(result); // obje formatindaki kelime verileri string dizisi formatina donusturuluyor ve words degiskenine ataniyor.
 }
+
+/* preload, loadJSON ve jsonLoaded kullanimlari karisik gelmis olabilir. Kodun bu kismini tam anlayamazsiniz, bu durumu sorun yapmayin.
+   Sadece bu kodlar calistirildiginda dosyadaki kelime listesinin words isimli string degerlerin saklandigi diziye aktarilmis olacagini bilin.
+   Diger bir deyisle json dosyamizdaki kelime listemiz string dizisi olarak words listesine aktariliyor.
+*/
+
+// JSON Nedir? https://www.w3schools.com/js/js_json.asp (Bu sayfayi okumaniz JSON formatinin ne oldugunu anlamaniza yardimci olabilir.
+// JSON formatini anlamak Wordle yazabilmeniz icin zorunluluk degil!
+
+
 
 
 function setup() {
