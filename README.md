@@ -230,6 +230,10 @@ Wordle kodunu son iki derste gosterilen VSCode ya da WebStorm editorlerinde de y
 * https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
 * https://www.verimix.com.tr/yazilimda-adlandirma-kurallari/
 
+# P5.js Notlari
+
+* https://gusanmaz.github.io/p5-course.html
+
 
 
 
