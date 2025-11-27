@@ -291,5 +291,3 @@ https://www.jeffreythompson.org/collision-detection/
 
 * Matter.js - https://brm.io/matter-js/
 * p5play.js - https://p5play.org/
-
-## Odevler
