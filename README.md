@@ -6,11 +6,31 @@
 * Email: guvencu at anadolu edu tr
 * Oda: 115
 
-## Odev 0
+## Odevler
+
+Github Classroom Odev Gonderimi (Basitlestirilmis Anlatim): https://gusanmaz.github.io/github-classroom-gonderim.pdf
+
+### Odev 1
 
 Kendinizi README.md dosyasinda (Isim, ogrenci no, programlama gecmisi vb.) anlatiniz.
 
 https://classroom.github.com/a/lTDcrdGL
+
+### Odev 2
+
+https://github.com/abtmyo/oyun-gelistirme/blob/main/odev2.md
+
+### Odev 3
+
+https://github.com/abtmyo/oyun-gelistirme/blob/main/odev3_zero_overlap.md
+
+### Odev 4
+
+https://github.com/abtmyo/oyun-gelistirme/blob/main/1d-xox.md
+
+### Odev 5
+
+https://github.com/abtmyo/oyun-gelistirme/blob/main/odev5-wordle.md
 
 ## Videolar
 
@@ -231,43 +251,45 @@ function wordControl(aim, guess){
 https://editor.p5js.org/gusanmaz/sketches/QEE7PUQV9
 Wordle kodunu son iki derste gosterilen VSCode ya da WebStorm editorlerinde de yazabilirsiniz.
 
-#### Naming Conventions
+## Naming Conventions
 
 * https://www.youtube.com/watch?v=UPNLmdRekFA&t=11s
 * https://www.verimix.com.tr/yazilimda-adlandirma-kurallari/
 
-# P5.js Notlari
+## P5.js Notlari
 
 * Donguler 1: https://gusanmaz.github.io/for.html
 * Donguler 2: https://gusanmaz.github.io/for2.html
 * Kapsamli p5.js Notlari: https://gusanmaz.github.io/p5-course.html
 
-# Collison Detection
+## Collison Detection
 
 https://www.jeffreythompson.org/collision-detection/
 
-# Oyun Oynayarak Kodlama
+## Oyun Oynayarak Kodlama
 
 * Replicube: https://store.steampowered.com/app/3401490/Replicube/
 
-# Conways's Game of Life Atolyesi
+## Conways's Game of Life Atolyesi
 
 * https://gusanmaz.github.io/conway.html
 
-# Cellular Automaton
+## Cellular Automaton
 
 * https://youtu.be/Ggxt06qSAe4
 * https://www.youtube.com/watch?v=lsWulRIWzdo
 * https://youtu.be/qGxqKUbrXpk
 * https://natureofcode.com/cellular-automata/
 
-# Turkce Videolar
+## Turkce Videolar
 
  * İyi Platform Oyunlarının Arkasındaki Dahice Tasarım: https://www.youtube.com/watch?v=uD0Zcv5wgDs
  * Oyun Psikolojisi: https://www.youtube.com/playlist?list=PLYuSahf3lMt7KkT2GF1deaBwnP5GHNUS9
  * Oyun Tasarimi: https://www.youtube.com/playlist?list=PLYuSahf3lMt4dn8dCvJQrs7BRjNI1-asq
 
-# JS Oyun Fizigi Kutuphaneleri
+## JS Oyun Fizigi Kutuphaneleri
 
 * Matter.js - https://brm.io/matter-js/
 * p5play.js - https://p5play.org/
+
+## Odevler
