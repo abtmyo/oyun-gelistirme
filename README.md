@@ -1,5 +1,11 @@
 # Oyun Gelistirme
 
+## Ofis Saatleri
+
+* Persembe 14:00 - 17:00
+* Email: guvencu at anadolu edu tr
+* Oda: 115
+
 ## Odev 0
 
 Kendinizi README.md dosyasinda (Isim, ogrenci no, programlama gecmisi vb.) anlatiniz.
