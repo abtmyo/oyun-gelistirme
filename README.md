@@ -232,9 +232,36 @@ Wordle kodunu son iki derste gosterilen VSCode ya da WebStorm editorlerinde de y
 
 # P5.js Notlari
 
-* https://gusanmaz.github.io/p5-course.html
+* Donguler 1: https://gusanmaz.github.io/for.html
+* Donguler 2: https://gusanmaz.github.io/for2.html
+* Kapsamli p5.js Notlari: https://gusanmaz.github.io/p5-course.html
 
+# Collison Detection
 
+https://www.jeffreythompson.org/collision-detection/
 
+# Oyun Oynayarak Kodlama
 
+* Replicube: https://store.steampowered.com/app/3401490/Replicube/
 
+# Conways's Game of Life Atolyesi
+
+* https://gusanmaz.github.io/conway.html
+
+# Cellular Automaton
+
+* https://youtu.be/Ggxt06qSAe4
+* https://www.youtube.com/watch?v=lsWulRIWzdo
+* https://youtu.be/qGxqKUbrXpk
+* https://natureofcode.com/cellular-automata/
+
+# Turkce Videolar
+
+ * İyi Platform Oyunlarının Arkasındaki Dahice Tasarım: https://www.youtube.com/watch?v=uD0Zcv5wgDs
+ * Oyun Psikolojisi: https://www.youtube.com/playlist?list=PLYuSahf3lMt7KkT2GF1deaBwnP5GHNUS9
+ * Oyun Tasarimi: https://www.youtube.com/playlist?list=PLYuSahf3lMt4dn8dCvJQrs7BRjNI1-asq
+
+# JS Oyun Fizigi Kutuphaneleri
+
+* Matter.js - https://brm.io/matter-js/
+* p5play.js - https://p5play.org/
