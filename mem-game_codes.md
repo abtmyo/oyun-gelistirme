@@ -1,4 +1,4 @@
-# Memory Game - Adım Adım Kodlar
+# 🎮 Memory Game- Eşleştirme Oyunu - Adım Adım Kodlar
 
 ## 16 - 17 Aralık
 
