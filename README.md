@@ -296,6 +296,7 @@ https://www.jeffreythompson.org/collision-detection/
 
 * 16-17 Aralik: https://gusanmaz.github.io/mem-game-p1/
 * 23 Aralik: https://gusanmaz.github.io/mem-game-p2/
+* 24 Aralik: https://gusanmaz.github.io/mem-game-p3/
 * Adim adim Tum kodlar: https://github.com/abtmyo/oyun-gelistirme/blob/main/mem-game_codes.md
 
 ## Connect 4 Oyunu tasarimi
