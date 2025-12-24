@@ -1802,3 +1802,2229 @@ function isGameBoardEmpty(){
   return true;
 }
 ```
+
+## 24 Aralık
+
+### Adım 1
+
+```js
+let words = ['red', 'kirmizi', 'black', 'siyah', 'blue', 'mavi', 'green', 'yesil', 'white', 'beyaz', 'yellow', 'sari', 'orange', 'turuncu', 'gray', 'gri'];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+
+function setup() {
+
+  createCanvas(400, 400);
+
+  textAlign(CENTER, CENTER);
+
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+
+}
+
+
+function gameWin(){
+
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!",width/2,height/2);
+
+}
+
+
+function draw() {
+
+  if (isGameBoardEmpty() == true){
+
+    return;
+
+  }
+
+  if (counter != -1){
+
+    counter++;
+
+  }
+
+  if (counter == 30){
+
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+
+  }
+
+  drawGameBoard();
+
+}
+
+
+function isAllTrue(a){
+
+  for (let i = 0; i < a.length; i++){
+
+    if (a[i] == false){
+
+      return false;
+
+    }
+
+  }
+
+  return true;
+
+}
+
+
+function selectText(){
+
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+
+}
+
+
+function mousePressed(){
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if ((satir1 == -1) && (sutun1 == -1) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+
+  }else if ((satir2 == -1) && (sutun2 == -1) && !((satir1 == loc[0]) && (sutun1 == loc[1])) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2){
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true){
+
+        gameWin();
+
+      }
+
+    }else{
+      score -= 2;
+      print(score);
+
+    }
+
+    counter = 0;
+
+  }
+
+}
+
+
+function getCellLocation(x, y){
+
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+
+}
+
+
+function getWordIndex(arr, str){
+
+  for(let i = 0; i < arr.length; i++){
+
+    if (arr[i] == str){
+
+      return i;
+
+    }
+
+  }
+
+  return -1;
+
+}
+
+
+function drawGameBoard(){
+
+  for (let satir = 0; satir < 4; satir++){
+
+    if (gameStart == true){
+
+      gameBoard[satir] = [];
+
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++){
+
+      fill('white');
+
+      if (gameBoard[satir][sutun] == ""){
+
+        fill('black');
+
+      }
+
+      if ((satir1 == satir) && (sutun1 == sutun)){
+
+        fill("yellow");
+
+      }
+
+      if ((satir2 == satir) && (sutun2 == sutun)){
+
+        fill("orange");
+
+      }
+
+      rect(sutun * 100, satir * 100, 100,100);
+
+      if (gameStart == true){
+
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill('black');
+
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+
+    }
+
+  }
+
+  if (gameStart == true){
+
+    gameStart = false;
+
+  }
+
+}
+
+
+function isGameBoardEmpty(){
+
+  for (let satir = 0; satir < 4; satir++){
+
+    for(let sutun =0; sutun < 4; sutun++){
+
+      if (gameBoard[satir][sutun] != ""){
+
+        return false;
+
+      }
+
+    }
+
+  }
+
+  return true;
+
+}
+```
+
+### Adım 2
+
+```js
+let words = ['red', 'kirmizi', 'black', 'siyah', 'blue', 'mavi', 'green', 'yesil', 'white', 'beyaz', 'yellow', 'sari', 'orange', 'turuncu', 'gray', 'gri'];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+
+function setup() {
+
+  createCanvas(400, 500);
+
+  textAlign(CENTER, CENTER);
+
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+
+}
+
+
+function gameWin(){
+
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!",width/2,height/2);
+
+}
+
+
+function draw() {
+
+  if (isGameBoardEmpty() == true){
+
+    return;
+
+  }
+
+  if (counter != -1){
+
+    counter++;
+
+  }
+
+  if (counter == 30){
+
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+
+  }
+
+  drawGameBoard();
+
+}
+
+
+function isAllTrue(a){
+
+  for (let i = 0; i < a.length; i++){
+
+    if (a[i] == false){
+
+      return false;
+
+    }
+
+  }
+
+  return true;
+
+}
+
+
+function selectText(){
+
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+
+}
+
+
+function mousePressed(){
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if ((satir1 == -1) && (sutun1 == -1) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+
+  }else if ((satir2 == -1) && (sutun2 == -1) && !((satir1 == loc[0]) && (sutun1 == loc[1])) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2){
+      score += 10;
+      print(score);
+      //text(score, 200, 450);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true){
+
+        gameWin();
+
+      }
+
+    }else{
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+
+    }
+
+    counter = 0;
+
+  }
+
+}
+
+
+function getCellLocation(x, y){
+
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+
+}
+
+
+function getWordIndex(arr, str){
+
+  for(let i = 0; i < arr.length; i++){
+
+    if (arr[i] == str){
+
+      return i;
+
+    }
+
+  }
+
+  return -1;
+
+}
+
+
+function drawGameBoard(){
+  background('white');
+
+  for (let satir = 0; satir < 4; satir++){
+
+    if (gameStart == true){
+
+      gameBoard[satir] = [];
+
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++){
+
+      fill('white');
+
+      if (gameBoard[satir][sutun] == ""){
+
+        fill('black');
+
+      }
+
+      if ((satir1 == satir) && (sutun1 == sutun)){
+
+        fill("yellow");
+
+      }
+
+      if ((satir2 == satir) && (sutun2 == sutun)){
+
+        fill("orange");
+
+      }
+
+      rect(sutun * 100, satir * 100, 100,100);
+
+      if (gameStart == true){
+
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill('black');
+
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+
+    }
+
+  }
+
+  text("Puan: " + score, 200,450);
+
+  if (gameStart == true){
+
+    gameStart = false;
+
+  }
+
+}
+
+
+function isGameBoardEmpty(){
+
+  for (let satir = 0; satir < 4; satir++){
+
+    for(let sutun =0; sutun < 4; sutun++){
+
+      if (gameBoard[satir][sutun] != ""){
+
+        return false;
+
+      }
+
+    }
+
+  }
+
+  return true;
+
+}
+```
+
+### Adım 3
+
+```js
+let words = ['red', 'kirmizi', 'black', 'siyah', 'blue', 'mavi', 'green', 'yesil', 'white', 'beyaz', 'yellow', 'sari', 'orange', 'turuncu', 'gray', 'gri'];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+
+function setup() {
+
+  createCanvas(400, 500);
+
+  textAlign(CENTER, CENTER);
+
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+
+}
+
+
+function gameWin(){
+
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!",width/2,height/2);
+
+}
+
+
+function draw() {
+
+  if (isGameBoardEmpty() == true){
+
+    return;
+
+  }
+
+  if (counter != -1){
+
+    counter++;
+
+  }
+
+  if (counter == 30){
+
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+
+  }
+
+  drawGameBoard();
+
+}
+
+
+function isAllTrue(a){
+
+  for (let i = 0; i < a.length; i++){
+
+    if (a[i] == false){
+
+      return false;
+
+    }
+
+  }
+
+  return true;
+
+}
+
+
+function selectText(){
+
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+
+}
+
+function isMouseInGameBoard(x, y){
+  return y < 400;
+}
+
+
+function mousePressed(){
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false){
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if ((satir1 == -1) && (sutun1 == -1) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+
+  }else if ((satir2 == -1) && (sutun2 == -1) && !((satir1 == loc[0]) && (sutun1 == loc[1])) && gameBoard[loc[0]][loc[1]] != ""){
+
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2){
+      score += 10;
+      print(score);
+      //text(score, 200, 450);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true){
+
+        gameWin();
+
+      }
+
+    }else{
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+
+    }
+
+    counter = 0;
+
+  }
+
+}
+
+
+function getCellLocation(x, y){
+
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+
+}
+
+
+function getWordIndex(arr, str){
+
+  for(let i = 0; i < arr.length; i++){
+
+    if (arr[i] == str){
+
+      return i;
+
+    }
+
+  }
+
+  return -1;
+
+}
+
+
+function drawGameBoard(){
+  background('white');
+
+  for (let satir = 0; satir < 4; satir++){
+
+    if (gameStart == true){
+
+      gameBoard[satir] = [];
+
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++){
+
+      fill('white');
+
+      if (gameBoard[satir][sutun] == ""){
+
+        fill('black');
+
+      }
+
+      if ((satir1 == satir) && (sutun1 == sutun)){
+
+        fill("yellow");
+
+      }
+
+      if ((satir2 == satir) && (sutun2 == sutun)){
+
+        fill("orange");
+
+      }
+
+      rect(sutun * 100, satir * 100, 100,100);
+
+      if (gameStart == true){
+
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill('black');
+
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+
+    }
+
+  }
+
+  text("Puan: " + score, 200,450);
+
+  if (gameStart == true){
+
+    gameStart = false;
+
+  }
+
+}
+
+
+function isGameBoardEmpty(){
+
+  for (let satir = 0; satir < 4; satir++){
+
+    for(let sutun =0; sutun < 4; sutun++){
+
+      if (gameBoard[satir][sutun] != ""){
+
+        return false;
+
+      }
+
+    }
+
+  }
+
+  return true;
+
+}
+```
+
+### Adım 4
+
+```js
+let words = [
+  "red",
+  "🔴",
+  "black",
+  "⚫",
+  "blue",
+  "🔵",
+  "green",
+  "🟢",
+  "white",
+  "⚪",
+  "yellow",
+  "🟡",
+  "orange",
+  "🟠",
+  "gray",
+  "🔘",
+];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+function setup() {
+  createCanvas(400, 500);
+
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+}
+
+function gameWin() {
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!", width / 2, height / 2);
+}
+
+function draw() {
+  if (isGameBoardEmpty() == true) {
+    return;
+  }
+
+  if (counter != -1) {
+    counter++;
+  }
+
+  if (counter == 30) {
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+  }
+
+  drawGameBoard();
+}
+
+function isAllTrue(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function selectText() {
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+}
+
+function isMouseInGameBoard(x, y) {
+  return y < 400;
+}
+
+function mousePressed() {
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false) {
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if (satir1 == -1 && sutun1 == -1 && gameBoard[loc[0]][loc[1]] != "") {
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+  } else if (
+    satir2 == -1 &&
+    sutun2 == -1 &&
+    !(satir1 == loc[0] && sutun1 == loc[1]) &&
+    gameBoard[loc[0]][loc[1]] != ""
+  ) {
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2) {
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true) {
+        gameWin();
+      }
+    } else {
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+    }
+
+    counter = 0;
+  }
+}
+
+function getCellLocation(x, y) {
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+}
+
+function getWordIndex(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function drawGameBoard() {
+  background("white");
+
+  for (let satir = 0; satir < 4; satir++) {
+    if (gameStart == true) {
+      gameBoard[satir] = [];
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++) {
+      fill("white");
+
+      if (gameBoard[satir][sutun] == "") {
+        fill("black");
+      }
+
+      if (satir1 == satir && sutun1 == sutun) {
+        fill("yellow");
+      }
+
+      if (satir2 == satir && sutun2 == sutun) {
+        fill("orange");
+      }
+
+      rect(sutun * 100, satir * 100, 100, 100);
+
+      if (gameStart == true) {
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill("black");
+
+      let p = isEmoji(word);
+      if (p == true){
+        textSize(60);
+      }else{
+        textSize(20);
+      }
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+    }
+  }
+
+  text("Puan: " + score, 200, 450);
+
+  if (gameStart == true) {
+    gameStart = false;
+  }
+}
+
+function isGameBoardEmpty() {
+  for (let satir = 0; satir < 4; satir++) {
+    for (let sutun = 0; sutun < 4; sutun++) {
+      if (gameBoard[satir][sutun] != "") {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function isEmoji(s) {
+  const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
+  const segments = Array.from(segmenter.segment(s));
+
+  // Eğer sadece tek bir görsel karakter varsa ve o bir emoji ise
+  return segments.length === 1 && /\p{Emoji}/u.test(s);
+}
+```
+
+### Adım 5
+
+```js
+let words = [
+  "red",
+  "🔴",
+  "black",
+  "⚫",
+  "blue",
+  "🔵",
+  "green",
+  "🟢",
+  "white",
+  "⚪",
+  "yellow",
+  "🟡",
+  "orange",
+  "🟠",
+  "gray",
+  "🔘",
+];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+function setup() {
+  createCanvas(400, 500);
+
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+}
+
+function gameWin() {
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!", width / 2, height / 2);
+}
+
+function draw() {
+  if (isGameBoardEmpty() == true) {
+    return;
+  }
+
+  if (counter != -1) {
+    counter++;
+  }
+
+  if (counter == 30) {
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+  }
+
+  drawGameBoard();
+}
+
+function isAllTrue(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function selectText() {
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+}
+
+function isMouseInGameBoard(x, y) {
+  return y < 400;
+}
+
+function mousePressed() {
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false) {
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if (satir1 == -1 && sutun1 == -1 && gameBoard[loc[0]][loc[1]] != "") {
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+  } else if (
+    satir2 == -1 &&
+    sutun2 == -1 &&
+    !(satir1 == loc[0] && sutun1 == loc[1]) &&
+    gameBoard[loc[0]][loc[1]] != ""
+  ) {
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2) {
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true) {
+        gameWin();
+      }
+    } else {
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+    }
+
+    counter = 0;
+  }
+}
+
+function getCellLocation(x, y) {
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+}
+
+function getWordIndex(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function drawGameBoard() {
+  background("white");
+
+  for (let satir = 0; satir < 4; satir++) {
+    if (gameStart == true) {
+      gameBoard[satir] = [];
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++) {
+      fill("white");
+
+      if (gameBoard[satir][sutun] == "") {
+        fill("black");
+      }
+
+      if (satir1 == satir && sutun1 == sutun) {
+        fill("yellow");
+      }
+
+      if (satir2 == satir && sutun2 == sutun) {
+        fill("orange");
+      }
+
+      rect(sutun * 100, satir * 100, 100, 100);
+
+      if (gameStart == true) {
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill("black");
+
+      let p = isEmoji(word);
+      if (p == true){
+        textSize(60);
+      }else{
+        textSize(20);
+      }
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+    }
+  }
+
+  textSize(30);
+  text("Puan: " + score, 200, 450);
+
+  if (gameStart == true) {
+    gameStart = false;
+  }
+}
+
+function isGameBoardEmpty() {
+  for (let satir = 0; satir < 4; satir++) {
+    for (let sutun = 0; sutun < 4; sutun++) {
+      if (gameBoard[satir][sutun] != "") {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function isEmoji(s) {
+  const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
+  const segments = Array.from(segmenter.segment(s));
+
+  // Eğer sadece tek bir görsel karakter varsa ve o bir emoji ise
+  return segments.length === 1 && /\p{Emoji}/u.test(s);
+}
+```
+
+### Adım 6 
+
+```js
+let words = [
+  "red",
+  "🔴",
+  "black",
+  "⚫",
+  "blue",
+  "🔵",
+  "green",
+  "🟢",
+  "white",
+  "⚪",
+  "yellow",
+  "🟡",
+  "orange",
+  "🟠",
+  "gray",
+  "🔘",
+];
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+function setup() {
+  createCanvas(400, 500);
+
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+}
+
+function gameWin() {
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!", width / 2, height / 2);
+}
+
+function draw() {
+  if (isGameBoardEmpty() == true) {
+    return;
+  }
+
+  if (counter != -1) {
+    counter++;
+  }
+
+  if (counter == 30) {
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+  }
+
+  drawGameBoard();
+}
+
+function isAllTrue(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function selectText() {
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+}
+
+function isMouseInGameBoard(x, y) {
+  return y < 400;
+}
+
+function mousePressed() {
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false) {
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if (satir1 == -1 && sutun1 == -1 && gameBoard[loc[0]][loc[1]] != "") {
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+  } else if (
+    satir2 == -1 &&
+    sutun2 == -1 &&
+    !(satir1 == loc[0] && sutun1 == loc[1]) &&
+    gameBoard[loc[0]][loc[1]] != ""
+  ) {
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2) {
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true) {
+        gameWin();
+      }
+    } else {
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+    }
+
+    counter = 0;
+  }
+}
+
+function getCellLocation(x, y) {
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+}
+
+function getWordIndex(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function drawGameBoard() {
+  background("white");
+
+  for (let satir = 0; satir < 4; satir++) {
+    if (gameStart == true) {
+      gameBoard[satir] = [];
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++) {
+      fill("white");
+
+      if (gameBoard[satir][sutun] == "") {
+        fill("black");
+      }
+
+      if (satir1 == satir && sutun1 == sutun) {
+        fill("yellow");
+      }
+
+      if (satir2 == satir && sutun2 == sutun) {
+        fill("orange");
+      }
+
+      rect(sutun * 100, satir * 100, 100, 100);
+
+      if (gameStart == true) {
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill("black");
+
+      let p = isEmoji(word);
+      if (p == true){
+        textSize(60);
+      }else{
+        textSize(20);
+      }
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+    }
+  }
+
+  textSize(30);
+  text("Puan: " + score, 200, 450);
+
+  if (gameStart == true) {
+    gameStart = false;
+  }
+}
+
+function isGameBoardEmpty() {
+  for (let satir = 0; satir < 4; satir++) {
+    for (let sutun = 0; sutun < 4; sutun++) {
+      if (gameBoard[satir][sutun] != "") {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function isEmoji(s) {
+  return /^\p{Emoji}$/u.test(s);
+}
+```
+
+### Adım 7
+
+```js
+let colors = ["red","🔴","black","⚫",
+  "blue","🔵","green","🟢","white",
+  "⚪","yellow","🟡","orange","🟠",
+  "gray","🔘"
+];
+
+let animals = [
+  "cat","🐱","dog","🐶",
+  "lion","🦁","elephant","🐘",
+  "bird","🐦","fish","🐟",
+  "horse","🐴","turtle","🐢"
+];
+
+let professions = [
+  "doctor","🩺","teacher","📚",
+  "engineer","🛠️","artist","🎨",
+  "chef","👨‍🍳","pilot","✈️",
+  "scientist","🔬","farmer","🌾"
+];
+
+let fruits = [
+  "apple","🍎","banana","🍌",
+  "orange","🍊","grape","🍇",
+  "straw\nberry","🍓","cherry","🍒",
+  "pine\napple","🍍","water\nmelon","🍉"
+];
+
+let themes = [colors, animals, professions, fruits];
+
+let words;
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+
+function setup() {
+  createCanvas(400, 500);
+  words = random(themes);
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  mixedWords = shuffle(words);
+
+  drawGameBoard();
+}
+
+function gameWin() {
+  background("green");
+
+  textAlign(CENTER, CENTER);
+
+  text("TEBRIKLER!", width / 2, height / 2);
+}
+
+function draw() {
+  if (isGameBoardEmpty() == true) {
+    return;
+  }
+
+  if (counter != -1) {
+    counter++;
+  }
+
+  if (counter == 30) {
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+  }
+
+  drawGameBoard();
+}
+
+function isAllTrue(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function selectText() {
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+}
+
+function isMouseInGameBoard(x, y) {
+  return y < 400;
+}
+
+function mousePressed() {
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false) {
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if (satir1 == -1 && sutun1 == -1 && gameBoard[loc[0]][loc[1]] != "") {
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+  } else if (
+    satir2 == -1 &&
+    sutun2 == -1 &&
+    !(satir1 == loc[0] && sutun1 == loc[1]) &&
+    gameBoard[loc[0]][loc[1]] != ""
+  ) {
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2) {
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true) {
+        gameWin();
+      }
+    } else {
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+    }
+
+    counter = 0;
+  }
+}
+
+function getCellLocation(x, y) {
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+}
+
+function getWordIndex(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function drawGameBoard() {
+  background("white");
+
+  for (let satir = 0; satir < 4; satir++) {
+    if (gameStart == true) {
+      gameBoard[satir] = [];
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++) {
+      fill("white");
+
+      if (gameBoard[satir][sutun] == "") {
+        fill("black");
+      }
+
+      if (satir1 == satir && sutun1 == sutun) {
+        fill("yellow");
+      }
+
+      if (satir2 == satir && sutun2 == sutun) {
+        fill("orange");
+      }
+
+      rect(sutun * 100, satir * 100, 100, 100);
+
+      if (gameStart == true) {
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill("black");
+
+      let p = isEmoji(word);
+      if (p == true){
+        textSize(60);
+      }else{
+        textSize(20);
+      }
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+    }
+  }
+
+  textSize(30);
+  text("Puan: " + score, 200, 450);
+
+  if (gameStart == true) {
+    gameStart = false;
+  }
+}
+
+function isGameBoardEmpty() {
+  for (let satir = 0; satir < 4; satir++) {
+    for (let sutun = 0; sutun < 4; sutun++) {
+      if (gameBoard[satir][sutun] != "") {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function isEmoji(s) {
+  return /^\p{Emoji}$/u.test(s);
+}
+```
+
+### Adım 8
+
+```js
+let colors = ["red","🔴","black","⚫",
+  "blue","🔵","green","🟢","white",
+  "⚪","yellow","🟡","orange","🟠",
+  "gray","🔘"
+];
+
+let animals = [
+  "cat","🐱","dog","🐶",
+  "lion","🦁","elephant","🐘",
+  "bird","🐦","fish","🐟",
+  "horse","🐴","turtle","🐢"
+];
+
+let professions = [
+  "doctor","🩺","teacher","📚",
+  "engineer","🛠️","artist","🎨",
+  "chef","👨‍🍳","pilot","✈️",
+  "scientist","🔬","farmer","🌾"
+];
+
+let fruits = [
+  "apple","🍎","banana","🍌",
+  "orange","🍊","grape","🍇",
+  "straw\nberry","🍓","cherry","🍒",
+  "pine\napple","🍍","water\nmelon","🍉"
+];
+
+let themes = [colors, animals, professions, fruits];
+
+let words;
+
+let mixedWords = [];
+
+let i = 0;
+
+let gameBoard = [];
+
+let satir1 = -1;
+
+let sutun1 = -1;
+
+let satir2 = -1;
+
+let sutun2 = -1;
+
+let counter = -1;
+
+let gameStart = true;
+
+let matchedPair = 0;
+
+let score = 0;
+let level;
+
+
+function levelStart(levelNum){
+  //background('white');
+  level = levelNum;
+  mixedWords = [];
+
+  i = 0;
+
+  gameBoard = [];
+
+  satir1 = -1;
+
+  sutun1 = -1;
+
+  satir2 = -1;
+
+  sutun2 = -1;
+
+  counter = -1;
+
+  gameStart = true;
+
+  matchedPair = 0;
+
+  //let score = 0;
+  words = themes[levelNum];
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  mixedWords = shuffle(words);
+  drawGameBoard();
+}
+
+function setup() {
+  createCanvas(400, 500);
+  levelStart(0);
+}
+
+function gameWin() {
+  if (level + 1 == themes.length){
+    background("green");
+    textAlign(CENTER, CENTER);
+    text("TEBRIKLER!", width / 2, height /2);
+  }
+  background('white');
+  level++;
+  levelStart(level);
+
+}
+
+function draw() {
+  if (isGameBoardEmpty() == true) {
+    return;
+  }
+
+  if (counter != -1) {
+    counter++;
+  }
+
+  if (counter == 30) {
+    satir1 = -1;
+
+    sutun1 = -1;
+
+    satir2 = -1;
+
+    sutun2 = -1;
+
+    counter = -1;
+  }
+
+  drawGameBoard();
+}
+
+function isAllTrue(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] == false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function selectText() {
+  let word = mixedWords[i];
+
+  i++;
+
+  i = i % 16;
+
+  return word;
+}
+
+function isMouseInGameBoard(x, y) {
+  return y < 400;
+}
+
+function mousePressed() {
+  let b = isMouseInGameBoard(mouseX, mouseY);
+  if (b == false) {
+    return;
+  }
+
+  let loc = getCellLocation(mouseX, mouseY);
+
+  if (satir1 == -1 && sutun1 == -1 && gameBoard[loc[0]][loc[1]] != "") {
+    satir1 = loc[0];
+
+    sutun1 = loc[1];
+  } else if (
+    satir2 == -1 &&
+    sutun2 == -1 &&
+    !(satir1 == loc[0] && sutun1 == loc[1]) &&
+    gameBoard[loc[0]][loc[1]] != ""
+  ) {
+    satir2 = loc[0];
+
+    sutun2 = loc[1];
+
+    let color1 = gameBoard[satir1][sutun1];
+
+    let color2 = gameBoard[satir2][sutun2];
+
+    let ind1 = getWordIndex(words, color1);
+
+    let ind2 = getWordIndex(words, color2);
+
+    let a1 = floor(ind1 / 2);
+
+    let a2 = floor(ind2 / 2);
+
+    if (a1 == a2) {
+      score += 10;
+      print(score);
+
+      gameBoard[satir1][sutun1] = "";
+
+      gameBoard[satir2][sutun2] = "";
+
+      matchedPair++;
+
+      if (isGameBoardEmpty() == true) {
+        gameWin();
+      }
+    } else {
+      score -= 2;
+      //text(score, 200, 450);
+      print(score);
+    }
+
+    counter = 0;
+  }
+}
+
+function getCellLocation(x, y) {
+  let sutun = floor(x / 100);
+
+  let satir = floor(y / 100);
+
+  let loc = [satir, sutun];
+
+  return loc;
+}
+
+function getWordIndex(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function drawGameBoard() {
+  for (let satir = 0; satir < 4; satir++) {
+    if (gameStart == true) {
+      gameBoard[satir] = [];
+    }
+
+    for (let sutun = 0; sutun < 4; sutun++) {
+      fill("white");
+
+      if (gameBoard[satir][sutun] == "") {
+        fill("black");
+      }
+
+      if (satir1 == satir && sutun1 == sutun) {
+        fill("yellow");
+      }
+
+      if (satir2 == satir && sutun2 == sutun) {
+        fill("orange");
+      }
+
+      rect(sutun * 100, satir * 100, 100, 100);
+
+      if (gameStart == true) {
+        let word = selectText();
+
+        gameBoard[satir][sutun] = word;
+      }
+
+      let word = gameBoard[satir][sutun];
+
+      fill("black");
+
+      let p = isEmoji(word);
+      if (p == true){
+        textSize(60);
+      }else{
+        textSize(20);
+      }
+      text(word, sutun * 100 + 50, satir * 100 + 50);
+    }
+  }
+
+  textSize(30);
+  fill('white');
+  noStroke();
+  rect(0,400,400,100);
+  fill('black');
+  stroke('black');
+  text("Puan: " + score, 200, 450);
+
+  if (gameStart == true) {
+    gameStart = false;
+  }
+}
+
+function isGameBoardEmpty() {
+  for (let satir = 0; satir < 4; satir++) {
+    for (let sutun = 0; sutun < 4; sutun++) {
+      if (gameBoard[satir][sutun] != "") {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function isEmoji(s) {
+  return /^\p{Emoji}$/u.test(s);
+}
+```
+
+
+
