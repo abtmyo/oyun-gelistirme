@@ -292,6 +292,14 @@ https://www.jeffreythompson.org/collision-detection/
 * Matter.js - https://brm.io/matter-js/
 * p5play.js - https://p5play.org/
 
-* ## Hafiza Oyunu
+## Hafiza Oyunu
 
-* https://gusanmaz.github.io/mem-game-p1/
+* 16-17 Aralik: https://gusanmaz.github.io/mem-game-p1/
+* 23 Aralik: https://gusanmaz.github.io/mem-game-p2/
+* Adim adim Tum kodlar: https://github.com/abtmyo/oyun-gelistirme/blob/main/mem-game_codes.md
+
+## Connect 4 Oyunu tasarimi
+* https://gusanmaz.github.io/connect4-tutorial
+
+## P5Play Notlari
+https://gusanmaz.github.io/p5play-tut
