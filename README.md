@@ -307,3 +307,7 @@ https://www.jeffreythompson.org/collision-detection/
 ## Game Desing Okuma Onerileri 
 
 * https://www.raphkoster.com/
+
+## Python Oyun Fizigi / Oyun Motoru Kutuphaneler
+
+* https://github.com/abtmyo/oyun-gelistirme/blob/main/python.md
