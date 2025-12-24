@@ -302,4 +302,8 @@ https://www.jeffreythompson.org/collision-detection/
 * https://gusanmaz.github.io/connect4-tutorial
 
 ## P5Play Notlari
-https://gusanmaz.github.io/p5play-tut
+* https://gusanmaz.github.io/p5play-tut
+
+## Game Desing Okuma Onerileri 
+
+* https://www.raphkoster.com/
